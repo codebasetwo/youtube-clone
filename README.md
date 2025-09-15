@@ -18,14 +18,13 @@ youtube-clone/
 │   ├── channel-profile/   # Channel profile images
 │   ├── icons/             # SVG icons for UI elements
 │   └── thumbnails/        # Video thumbnail images
-├── pages/
-│   └── index.html         # Main HTML page
 ├── styles/
 │   ├── header.css         # Header styles
 │   ├── index.css          # General styles
 │   ├── sidebar.css        # Sidebar styles
 │   └── video.css          # Video grid styles
 └── README.md
+└── index.html         # Main HTML page
 ```
 
 ## How to Use
