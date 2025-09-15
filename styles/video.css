@@ -1,0 +1,99 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+@media (max-width: 600px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 751px) and (max-width: 999) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.thumbnail {
+    width: 100%; /*best to set just the width it adjust the height automatically*/
+    /*setting just the helps us to prevent setting the following
+        object-fit: contain, cover;
+        object-position: left, right, top bottom;*/
+       
+      }
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-title {
+    margin-top: 0px ;
+    margin-bottom: 10px;
+    vertical-align: top;
+    width: 250px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.video-stats,
+.channel-name {
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+}
+
+.channel-name {
+  margin-bottom: 4px;
+}
+
+.video-stats {
+ margin-bottom: 4px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+/* .video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top; /* usually alignment for element are for text setting this makes it align to the box
+  margin-right: 20px;
+} */
+.channel-picture {
+  display: inline-block;
+  vertical-align: top;
+  width: 40px;
+}
+.profile-picture {
+  width: 36px;
+  border-radius: 50%;
+}
+
+.video-info {
+  display: inline-block;
+  width: 200px;
+  margin-left: 2px;
+}
+
+.video-time {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    color: white;
+    background-color: black;
+    bottom: 8px;
+    right: 5px;
+    padding-left: 4px 2px 4px 4px;
+    border-radius: 2px;
+
+}
